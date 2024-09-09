@@ -2,8 +2,37 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
-body{
-  background-color: indigo;
+body {
+  text-align: center;
+  background-color: skyblue;
+}
+.Br {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 90%;
+}
+
+#calculator{
+  border-radius: 10px;
+  border: 2px solid;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+#btn-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+#btnId{
+font-size: 25px;
+border-radius: 50%;
+width: 70px;
+height: 70px;
 }
